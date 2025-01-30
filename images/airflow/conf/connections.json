@@ -1,0 +1,22 @@
+{
+  "spark_conn": {
+    "conn_type": "spark",
+    "description": "",
+    "login": "",
+    "password": null,
+    "host": "spark://spark-master",
+    "port": 7077,
+    "schema": "",
+    "extra": "{\"deploy-mode\": \"client\", \"spark-binary\": \"spark-submit\"}"
+  },
+  "trino_conn": {
+    "conn_type": "trino",
+    "description": "",
+    "login": "admin",
+    "password": null,
+    "host": "trino",
+    "port": 8080,
+    "schema": "",
+    "extra": ""
+  }
+}

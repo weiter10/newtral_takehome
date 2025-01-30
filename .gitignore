@@ -1,0 +1,9 @@
+work/projects/olist
+work/projects/pokedex
+# ignore all projects except iceberg_wap
+!iceberg_wap/
+mount/minio*
+mount/postgres*
+__pycache__
+images/workspace
+work
