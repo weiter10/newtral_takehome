@@ -34,7 +34,6 @@ El framework contiene el código necesario para inicializar las aplicaciones y d
 ![alt text](markdown_imgs/image-5.png)
 
 Limitaciones:
-- Por limitaciones de tiempo, se han creado las ETL y tablas para los sources `media`y `tiktokcomment`
 - Solo se han creado las ETL y tablas para los sources `media`y `tiktokcomment`
 - La capa `Data Exploitation. Clients`, no está implementada, pero si está disponible el acceso a las tablas de Trino (ver apartado "Consulta de datos del data warehouse")
 ## Código ETL
