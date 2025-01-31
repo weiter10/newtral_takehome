@@ -35,10 +35,11 @@ El framework contiene el código necesario para inicializar las aplicaciones y d
 
 Limitaciones:
 - Por limitaciones de tiempo, se han creado las ETL y tablas para los sources `media`y `tiktokcomment`
-
+- Solo se han creado las ETL y tablas para los sources `media`y `tiktokcomment`
+- La capa `Data Exploitation. Clients`, no está implementada, pero si está disponible el acceso a las tablas de Trino (ver apartado "Consulta de datos del data warehouse")
 ## Código ETL
 
-Como se ha comentado anteriormente, la ETL se ha desarrollado en PySpark. 
+Como se ha comentado anteriormente, la ETL se ha desarrollado en PySpark: [Link al script Ptyhon](./mount/airflow/scripts/etl_job.py).
 
 Todo el código se encuentra comentado para su entendimiento.
 Si cabe mencionar que, para evitar la aparición de duplicados en las tablas raw de trino (media, etc), se ha tomado como clave primaria el campo `id` que proviene en el dato entrante. El control de duplicados se realiza en dos pasos:
